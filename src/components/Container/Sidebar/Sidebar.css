@@ -1,0 +1,61 @@
+.search-section {
+  min-width: 296px;
+  border-right: 1px solid rgb(222, 222, 221);
+  padding-top: 27px;
+  padding-left: 20px;
+}
+.search-section__header {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+.search-section__input {
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 46px;
+  width: 240px;
+  margin-top: 22px;
+  margin-right: 31px;
+  padding-left: 24px;
+  border: 1.5px solid rgb(233, 236, 239);
+  border-radius: 8px;
+}
+
+.result__text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.user {
+  display: flex;
+  width: 240px;
+  min-height: 70px;
+  margin-top: 18px;
+}
+.user__photo {
+  width: 70px;
+  min-height: 70px;
+  border-right: 1px solid rgb(224, 224, 224);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user__info {
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 200px;
+  overflow: hidden;
+}
+.user__name {
+  font-size: 14px;
+  font-weight: 600;
+}
+.user__email {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.user--selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=Sidebar.css.map */
